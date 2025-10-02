@@ -1,6 +1,6 @@
 # landing_page
 
-Landing Page project for 
+Landing Page project for
 [TOP](https://www.theodinproject.com/lessons/foundations-landing-page).
 
 For this project, I will create a web page from a provided design.
