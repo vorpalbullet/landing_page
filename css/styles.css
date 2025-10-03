@@ -17,6 +17,26 @@ footer,
   color: #1F2937;
 }
 
+.info-heading,
+blockquote {
+  font-size: 36px;
+}
+
+.logo,
+.citation,
+.call-to-action-heading {
+  font-size: 24px;
+}
+
+.hero-subtext,
+header a,
+.info-text,
+.call-to-action-text,
+footer,
+button {
+  font-size: 18px;
+}
+
 .hero-heading,
 .logo,
 .call-to-action,
@@ -35,6 +55,17 @@ button {
   background-color: #3882F6;
 }
 
+.hero-heading,
+.info-heading {
+  font-weight: 900;
+}
+
+.citation,
+button,
+.logo {
+  font-weight: 700;
+}
+
 header {
 
 }
@@ -44,7 +75,9 @@ header {
 }
 
 ul {
-
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -52,7 +85,7 @@ li {
 }
 
 a {
-
+  text-decoration: none;
 }
 
 .hero {
@@ -60,7 +93,7 @@ a {
 }
 
 .hero-heading {
-
+  font-size: 48px;
 }
 
 .hero-subtext {
@@ -95,8 +128,9 @@ button {
   background-color: #E5E7EB;
 }
 
-.quote {
-
+blockquote {
+  font-weight: 300;
+  font-style: italic;
 }
 
 .citation {
