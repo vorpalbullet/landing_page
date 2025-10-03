@@ -1,9 +1,23 @@
+/* TODO:
+   [ ] flex layout
+   [ ] size images
+   [ ] style buttons
+     [ ] padding
+     [ ] remove border
+*/
+
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: Roboto, sans-serif;
+}
+
+button,
+.info-img,
+.call-to-action {
+  border-radius: 8px;
 }
 
 header,
