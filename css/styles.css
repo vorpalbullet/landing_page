@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+header,
+footer,
+.hero {
+  background-color: #1F2937;
+}
+
+.info-heading,
+.quote-container {
+  color: #1F2937;
+}
+
+.hero-heading,
+.logo,
+.call-to-action,
+button {
+  color: #F9FAF8;
+}
+
+.hero-subtext,
+footer,
+header a {
+  color: #E5E7EB;
+}
+
+.call-to-action,
+button {
+  background-color: #3882F6;
+}
+
+header {
+
+}
+
+.logo {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+a {
+
+}
+
+.hero {
+
+}
+
+.hero-heading {
+
+}
+
+.hero-subtext {
+
+}
+
+button {
+
+}
+
+.hero-image {
+
+}
+
+.info {
+
+}
+
+.info-heading {
+
+}
+
+.info-img {
+  border: 3px solid #3882F6;
+}
+
+.info-text {
+  color: #4B5563;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+}
+
+.quote {
+
+}
+
+.citation {
+
+}
+
+.call-to-action {
+
+}
+
+.call-to-action-heading {
+
+}
+
+.call-to-action-text {
+
+}
+
+footer {
+
+}
