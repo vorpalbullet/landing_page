@@ -8,115 +8,74 @@
 
 body {
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
-button {
-  padding: 4px 28px;
-}
-
-button,
-.info-image,
-.call-to-action {
-  border-radius: 8px;
-}
-
-header,
-footer,
 .hero {
   background-color: #1f2937;
 }
 
-.info-heading,
-.quote-container {
-  color: #1f2937;
-}
-
-.info-heading,
-blockquote {
-  font-size: 36px;
-}
-
-.logo,
-.citation,
-.call-to-action-heading {
-  font-size: 24px;
-}
-
-.hero-subtext,
-header a,
-.info-text,
-.call-to-action-text,
-footer,
-button {
-  font-size: 18px;
-}
-
-.hero-heading,
-.logo,
-.call-to-action-heading,
-button {
-  color: #f9faf8;
-}
-
-.hero-subtext,
-.call-to-action-text,
-footer,
-header a {
-  color: #e5e7eb;
-}
-
-.call-to-action,
-button {
-  background-color: #3882f6;
-}
-
-.hero-heading,
-.info-heading {
-  font-weight: 900;
-}
-
-.citation,
-button,
-.logo {
-  font-weight: 700;
-}
-
 header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+header div {
+  flex: 0 1 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
 }
 
 .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 20px;
 }
 
-li {
-}
-
-a {
+header a {
   text-decoration: none;
-}
+  font-size: 18px;
+  color: #e5e7eb;
 
-.hero {
 }
 
 .hero-heading {
+  color: #f9faf8;
+  font-weight: 900;
   font-size: 48px;
 }
 
 .hero-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  padding: 4px 28px;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  font-weight: 700;
 }
 
 .hero button {
   border-width: 0;
-}
-
-.call-to-action button {
-  border-style: solid;
-  border-color: #f9faf8;
 }
 
 .hero-image {
@@ -125,10 +84,10 @@ a {
   object-fit: cover;
 }
 
-.info {
-}
-
 .info-heading {
+  font-weight: 900;
+  color: #1f2937;
+  font-size: 36px;
 }
 
 .info-image {
@@ -136,32 +95,52 @@ a {
   width: 180px;
   height: 180px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .info-text {
   color: #4b5563;
+  font-size: 18px;
 }
 
 .quote-container {
   background-color: #e5e7eb;
+  color: #1f2937;
 }
 
 blockquote {
+  font-size: 36px;
   font-weight: 300;
   font-style: italic;
 }
 
 .citation {
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .call-to-action {
+  border-radius: 8px;
+  background-color: #3882f6;
 }
 
 .call-to-action-heading {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .call-to-action-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.call-to-action button {
+  border-style: solid;
+  border-color: #f9faf8;
 }
 
 footer {
+  font-size: 18px;
+  color: #e5e7eb;
+  background-color: #1f2937;
 }
