@@ -191,11 +191,12 @@ blockquote>p {
   background-color: #3882f6;
   margin: 100px auto;
   max-width: 1000px;
-  width: 100%;
-  padding: 30px 0;
+  width: 95%;
+  padding: 30px 60px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 60px;
 }
 
 .call-to-action-heading {
@@ -213,6 +214,7 @@ blockquote>p {
 .call-to-action .button {
   border-style: solid;
   border-color: #f9faf8;
+  flex: none;
 }
 
 footer {
