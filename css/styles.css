@@ -61,7 +61,7 @@ header a {
 
 .hero-image {
   max-width: 550px;
-  height: 240px;
+  max-height: 240px;
   object-fit: cover;
   padding-left: 30px;
 }
@@ -97,6 +97,8 @@ header a {
 
   .hero-image {
     width: 100%;
+    flex: 0 1 auto;
+    padding: 0 30px;
   }
 }
 
